@@ -3,7 +3,7 @@ const app = express();
 const mongoose = require("mongoose");
 const cors = require("cors");
 
-const { MONGO_URI } = require("./config/keys");
+const MONGO_URI  = "mongodb+srv://bonsi:5LV9GwbYVF12veit@buf.wacagx3.mongodb.net"
 const PORT = 3001;
 app.use(cors());
 app.use(express.json());
