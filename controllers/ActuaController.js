@@ -28,6 +28,14 @@ const ActuaController = {
       console.error(error);
     }
   },
+  async deleteById(req, res) {
+    try {
+      const actua = await Actua.findByIdAndDelete(req.params.id);
+      return res.send({actua});
+    } catch (error) {
+      console.error(error);
+    }
+  },
 };
 
 module.exports = ActuaController;
