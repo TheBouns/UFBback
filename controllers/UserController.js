@@ -1,7 +1,7 @@
 const User = require("../models/User");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
-const { jwt_secret } = require("../config/keys");
+const jwt_secret = require("../config/keys");
 const Unidad = require("../models/unidad");
 
 const UserController = {

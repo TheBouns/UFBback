@@ -1,1 +1,3 @@
-jwt_secret= "soaskoaskoasoa"
+const jwt_secret= 'patataFRITA'
+
+module.exports = jwt_secret
