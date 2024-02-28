@@ -1,4 +1,4 @@
-const Unidad = require("../models/unidad.js");
+const Unidad = require("../models/unidad");
 
 const UnidadController = {
   async create(req, res) {
