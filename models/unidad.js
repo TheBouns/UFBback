@@ -37,6 +37,6 @@ const UnidadSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-const Unidad = mongoose.model("Unidad", UnidadSchema);
+const unidad = mongoose.model("u", UnidadSchema);
 
-module.exports = Unidad;
+module.exports = unidad;

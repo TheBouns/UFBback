@@ -26,6 +26,6 @@ const ActuaSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-const Actua = mongoose.model("Actua", ActuaSchema);
+const actua = mongoose.model("Actua", ActuaSchema);
 
-module.exports = Actua;
+module.exports = actua;
