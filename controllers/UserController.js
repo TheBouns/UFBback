@@ -1,8 +1,8 @@
-const User = require("../models/User.js");
+const User = require("../models/user");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const jwt_secret = require("../config/keys");
-const Unidad = require("../models/unidad.js");
+const Unidad = require("../models/unidad");
 
 const UserController = {
   async login(req, res) {

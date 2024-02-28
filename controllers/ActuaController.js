@@ -1,4 +1,4 @@
-const Actua = require("../models/Actua.js");
+const Actua = require("../models/actua");
 
 const ActuaController = {
   async create(req, res) {
